@@ -1,7 +1,7 @@
 void main(List<String> args) {
   int integerNum = 5;
   double? floatingnum = 2.55;
-  String? name = '2000';
+  String? stringNum = '2000';
 
   //Integer to String Conversion
 
@@ -21,9 +21,9 @@ void main(List<String> args) {
 
   //String to Integer Conversion
 
-  print(int.tryParse(name));
+  print(int.tryParse(stringNum));
 
   //String to Double Conversion
 
-  print(double.tryParse(name));
+  print(double.tryParse(stringNum));
 }
